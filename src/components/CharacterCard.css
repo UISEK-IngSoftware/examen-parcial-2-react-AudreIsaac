@@ -1,0 +1,23 @@
+.character-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.character-avatar {
+  width: 64px !important;
+  height: 64px !important;
+}
+
+.character-content {
+  flex: 1;
+  padding: 0 !important;
+}
+
+.character-tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
